@@ -1,3 +1,7 @@
+## [0.1.9] - 2021-05-30
+
+- Removed 'device_class' weather again
+
 ## [0.1.8] - 2021-05-24
 
 - Add "MQTT retain" flag
