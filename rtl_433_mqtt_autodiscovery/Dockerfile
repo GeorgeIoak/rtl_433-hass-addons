@@ -19,10 +19,9 @@ RUN pip3 install --no-cache paho-mqtt
 # (latest as of 12/25/2020)
 RUN mkdir /tmp/build && \
     cd /tmp/build && \
-    git clone https://github.com/GeorgeIoak/rtl_433 && \
-    cd rtl_433 && \
+    git clone https://github.com/GeorgeIoak/rtl_433-hass-addons && \
+    cd rtl_433_mqtt_autodiscovery && \
 #   git checkout 29c04d8b412eb09f4cd1db4b363050d2d72e9065 && \
-    wget https://github.com/GeorgeIoak/rtl_433-hass-addons/blob/main/rtl_433_mqtt_autodiscovery/rtl_433_mqtt_hass.py && \
     cp rtl_433_mqtt_hass.py /rtl_433_mqtt_hass.py && \
     rm -rf /tmp/build
 
