@@ -1,3 +1,7 @@
+## [0.1.11] - 2021-05-31
+
+- Corrected cumulative rain calculation
+
 ## [0.1.10] - 2021-05-31
 
 - Added rounding
