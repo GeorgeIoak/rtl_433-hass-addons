@@ -1,3 +1,7 @@
+## [0.1.10] - 2021-05-31
+
+- Added rounding
+- 
 ## [0.1.9] - 2021-05-30
 
 - Removed 'device_class' weather again
